@@ -139,3 +139,11 @@ project-folder/
 ```
 
 In the example above, we have a project folder that contains a `css` folder for CSS files, an `img` folder for image files, a `js` folder for JavaScript files, and an `index.html` file for the main HTML content.
+
+## References and Resources
+
+- [HTML Reference](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [HTML Attributes Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes)
+- [Getting to Know HTML by Shaw Howe](https://learn.shayhowe.com/html-css/getting-to-know-html/)
+- [Basics of HTML by Laurel Schwulst](https://www.youtube.com/watch?v=CkzbI1Tv_rQ&feature=youtu.be)
