@@ -75,7 +75,6 @@
   
 ```css
 /* Set the border to 1px solid black */
-
 .box{
     /*       border-width border-style border-color */
     border: 1px solid black;
