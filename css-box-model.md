@@ -140,3 +140,8 @@ Read more about the `box-sizing` property [here](https://developer.mozilla.org/e
 - The `grid` value tells the browser to display the element as a grid container.
 - The `none` value tells the browser to hide the element.
 
+## References and Resources
+
+- [MDN Web Docs: Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
+- [W3C CSS Box Model](https://www.w3.org/TR/CSS22/box.html)
+- [Web.dev Box Model](https://web.dev/learn/css/box-model/)
