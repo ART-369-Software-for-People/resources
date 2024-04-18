@@ -134,6 +134,10 @@ Read more about the `box-sizing` property [here](https://developer.mozilla.org/e
 
 - The `display` property is used to change or override the default display behavior of an element.
 - The `display` property can be set to `block`, `inline`, `inline-block`, `flex`, `grid`, and more.
-- 
-
+- The `block` value tells the browser to display the element as a block-level element.
+- The `inline` value tells the browser to display the element as an inline element.
+- The `inline-block` value tells the browser to display the element as an inline element that can have padding and margins.
+- The `flex` value tells the browser to display the element as a flex container.
+- The `grid` value tells the browser to display the element as a grid container.
+- The `none` value tells the browser to hide the element.
 
