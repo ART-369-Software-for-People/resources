@@ -66,3 +66,76 @@ HTML elements can have attributes. Attributes provide additional information abo
 ```html
 <h1 id="heading">This is a Heading</h1>
 ```
+
+Other attributes include `class`, `style`, `href`, `src`, `alt`, and so on. Refer to the [HTML attributes reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes) for more information.
+
+## Anchor Tag (Making Links)
+
+The `<a>` tag serves as a hyperlink, allowing for navigation between pages. It can be seen as a gateway to other pages. The `href` attribute is the key attribute of the `<a>` element, specifying the destination of the link.
+
+```html
+<a href="https://alvinashiatey.com">Alvin Ashaitey</a>
+```
+
+### External Links
+
+In the example above, the `href` attribute specifies an external link. External links link you to an external page, which is not on your website. They must include the full URL, including the protocol (e.g., `https://`).
+
+### Internal Links
+
+Internal links link you to another page on your website. They must include the relative path to the page you want to link to.
+
+```html
+<a href="about.html">About</a>
+```
+
+More information about external and internal links can be found [here](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/).
+
+
+## HTML Comments
+
+HTML comments are not displayed in the browser. They are used to add notes to the code. Comments can be used to explain the code, or to prevent the browser from rendering specific parts of the code.
+
+```html
+<!-- This is a comment -->
+<!-- °°°·.°·..·°¯°·._.· ART 369 ·._.·°¯°·.·° .·°°° -->
+```
+
+## Semantic HTML
+
+- Semantic HTML is a way of writing HTML that emphasizes the meaning of the content rather than its appearance.
+- In HTML, you can technically use any tag to create any layout you want. However, using the correct tags for the correct purpose is important for [accessibility](https://www.accessibility-developer-guide.com/knowledge/semantics/), and readability.
+- While some tags may appear identical, they actually hold distinct connotations for screen readers. For instance, a `<div>` tag serves as a general container, whereas a `<header>` tag serves as a container for introductory content.
+
+```html
+<!-- Non-semantic HTML -->
+<div id="header">
+    <h1>My Website</h1>
+</div>
+
+<!-- Semantic HTML -->
+<header>
+    <h1>My Website</h1>
+</header>
+```
+
+## File Structure
+
+When creating an HTML file, it is important to have a well-organized file structure. This is especially important when working on larger projects. Below is an example of a simple file structure for an HTML project.
+
+```tree
+project-folder/
+│
+├── css/
+│   └── style.css
+│
+├── img/
+│   └── image.jpg
+│
+├── js/
+│   └── script.js
+│
+├── index.html
+```
+
+In the example above, we have a project folder that contains a `css` folder for CSS files, an `img` folder for image files, a `js` folder for JavaScript files, and an `index.html` file for the main HTML content.
