@@ -47,3 +47,22 @@ In the above example we have the following elements:
 - `alt`: specifies an alternate text for the image
 
 
+## Nesting Elements
+
+HTML elements can be nested (elements can contain elements). All HTML documents consist of nested elements. In this example, we would use a `<ul>` element to create a list of items. `<ul>` stands for unordered list and within the `<ul>` element, we would nest `<li>` elements, which stands for list items, to create a list of items.
+
+```html
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+```
+
+## HTML Attributes
+
+HTML elements can have attributes. Attributes provide additional information about the element. In this example, we would use the `id` attribute to give the `<h1>` element an identifier. The `id` attribute is used to uniquely identify an element in an HTML document.
+
+```html
+<h1 id="heading">This is a Heading</h1>
+```
